@@ -55,7 +55,7 @@ To solve the above two problems, we choose to implement the function of voice re
 
 * The algorithm
 
-To identify the speaker, Mel Frequency Cepstral Coefficients (MFCC)In order for a computer to recognize audio data, we must first transfer the audio data from the time domain to the frequency domain, and then extract the features. Mel Frequency Cepstral Coefficients (MFCC) is widely used for this step.
+In order for a computer to recognize audio data, we must first transfer the audio data from the time domain to the frequency domain, and then extract the features. Mel Frequency Cepstral Coefficients (MFCC) is widely used for this step.
 
 <img width="667" alt="Screen Shot 2020-10-06 at 3 01 52 AM" src="https://user-images.githubusercontent.com/70667153/95120838-b80cff80-0780-11eb-8bcc-df6165a544d9.png">
 
