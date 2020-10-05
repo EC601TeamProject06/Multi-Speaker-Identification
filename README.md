@@ -14,15 +14,16 @@
 
 ## Define MVP 
 
-*
+* A linux development environment.
 
+* A python development environment.
 
-
-
-
+* A device that can record voices. 
 
 ## Translate user stories to a modular design
 
 ## Who is your user?
+
+* There are various kind of user for this multi-speaker identification system. It can be an essitial part of AI speak identification module such as Siri. I can also be used to speech to text(STT), such as Zoom  and Youtube. 
 
 ## What are the basic user stories?
