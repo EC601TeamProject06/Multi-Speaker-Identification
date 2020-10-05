@@ -39,9 +39,9 @@ Most of the existing voice recognition is implemented on the server, which will 
 
 1) When the network is poor, it will cause a large delay and bring poor user experience.
 
-2) When the traffic is large, a large amount of server resources will be occupied.
+2) When there is a large visit volume, a large amount of server resources will be occupied.
 
-To solve the above two problems, we choose to implement the function of voice recognition on the client. This paper USES machine learning to identify human voices. The framework used is Google's tensorflowLite framework, which is as compact as its name shows. While ensuring the accuracy, the size of the frame is only about 300KB, and the model produced after compression is one-fourth that of the TensorFlow model
+To solve the above two problems, we choose to implement the function of voice recognition on the client. There is a way to use machine learning to identify human voices. The framework used is Google's tensorflowLite framework, which is as compact as its name shows. While ensuring the accuracy, the size of the frame is only about 300KB, and the model produced after compression is one-fourth that of the TensorFlow model
 
 * The usage scenarios of voice recognition are as follows:
 
