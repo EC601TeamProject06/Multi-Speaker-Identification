@@ -6,11 +6,11 @@
 
 ## The user stories
 
-* As a developer, I want to identify a person based on his/her voice characteristics.
+* As a user, I want to identify a person based on his/her voice characteristics.
 
-* As a developer, I want to identify multi-speaker and classify them.
+* As a user, I want to identify multi-speaker and classify them.
 
-* As a developer, I want to identify the particular speaker within multi-speaker evironment.
+* As a user, I want to identify the particular speaker within multi-speaker evironment.
 
 * As a user, I don't want strangers (both intentionally and unintentionally) activating and giving voice commands to my personal smart device.
 
