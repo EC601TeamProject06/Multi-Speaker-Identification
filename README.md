@@ -21,10 +21,6 @@
 * A device that can record voices. 
 
 
-## Who is your user?
-
-* There are various kind of user for this multi-speaker identification system. It can be an essitial part of AI speak identification module such as Siri. I can also be used to speech to text(STT), such as Zoom  and Youtube. 
-
 ## Technologies to evaluate
 * Tensorfow
 
@@ -45,5 +41,9 @@ To solve the above two problems, we choose to implement the function of voice re
 3) Identify emotions: It is used to judge the speaker's emotions and states. The combination of voice print content and emotional information can effectively prevent voice print counterfeiting and physical coercion.
 
 4) Gender recognition: Male voice or female voice can be identified.
+
+* The algorithm
+
+To identify the speaker, Mel Frequency Cepstral Coefficients (MFCC)In order for a computer to recognize audio data, we must first transfer the audio data from the time domain to the frequency domain, and then extract the features. Mel Frequency Cepstral Coefficients (MFCC) is widely used for this step.
 
 
