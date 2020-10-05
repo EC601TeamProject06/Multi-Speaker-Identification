@@ -12,6 +12,10 @@
 
 * As a developer, I want to identify the particular speaker within multi-speaker evironment.
 
+* As a user, I don't want strangers (both intentionally and unintentionally) activating and giving voice commands to my personal smart device.
+
+* As a user who lives in a multiperson household, I want my smart device to play music from my personal playlist and not my roommates' playlist and vice versa.
+
 ## Define MVP 
 
 * Tensorflow Platform.
@@ -20,9 +24,16 @@
 
 * A device that can record voices. 
 
+* Software that can process recorded audio and identify when someone is speaking.
+
+* Software that can recognize who is speaking based on what it has seen previously.
 
 ## Technologies to evaluate
-* Tensorfow
+* Tensorflow
+
+This is open source machine learning platform for developing and training machine learning models. We chose this as a potential option because many approaches we saw in literature utilized some form of machine learning in their approach and we want to try exploring these types of techniques as well.
+
+Some things to consider:
 
 Most of the existing voice recognition is implemented on the server, which will bring the following two problems:
 
