@@ -1,0 +1,8 @@
+https://keras.io/examples/audio/speaker_recognition_using_cnn/
+
+https://github.com/oscarknagg/voicemap
+
+https://www.digikey.com/en/maker/projects/tensorflow-lite-tutorial-part-2-speech-recognition-model-training/d8d04a2b60a442cf8c3fa5c0dd2a292b
+
+https://www.kaggle.com/beastlyprime/tensorflow-speaker-verification
+
