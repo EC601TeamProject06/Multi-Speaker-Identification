@@ -59,6 +59,19 @@ In order for a computer to recognize audio data, we must first transfer the audi
 
 <img width="667" alt="Screen Shot 2020-10-06 at 3 01 52 AM" src="https://user-images.githubusercontent.com/70667153/95120838-b80cff80-0780-11eb-8bcc-df6165a544d9.png">
 
+## Project Structure
+The goal for the final product will be a mobile application that utilizes a trained model to predict the person who is speaking based on their recorded speech. This will be split up into multiple subtasks listed below:
+
+* Develop a mobile application that can record the user's voice
+
+* Build and train a model
+
+* Integrate model into mobile development environment
+
+* Debug and combine application with model
+
+* Evaluate and test
+
 ## Reference
 
 
