@@ -12,17 +12,22 @@ import android.media.MediaPlayer;
 import android.media.MediaRecorder;
 import android.os.Bundle;
 import android.os.Environment;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.UUID;
+
+import static java.sql.DriverManager.println;
 
 public class MainActivity extends AppCompatActivity {
 
     //Declare variables
     Button btnRecord,btnStopRecord,btnPlay,btnStop;
+    String path = "";
     String pathSave = "";
     MediaRecorder mediaRecorder;
     MediaPlayer mediaPlayer;
@@ -53,9 +58,24 @@ public class MainActivity extends AppCompatActivity {
                     if (checkPermissionFromDevice())
 
                     {
-                    pathSave = Environment.getExternalStorageDirectory()
-                            .getAbsolutePath()+"/"
-                            + UUID.randomUUID().toString()+"_audio_record.3gp";
+
+                    path = Environment.DIRECTORY_MUSIC+"/MyFolder/";
+                    File dir = new File(path);
+                    if(!dir.exists())
+                        dir.mkdirs();
+                    pathSave = path + UUID.randomUUID().toString()+"_audio_record.3gp";
+                    File file = new File(pathSave);
+                    if(!file.exists())
+                        {
+                            try {
+                                file.createNewFile();
+                            } catch (IOException e) {
+                                e.printStackTrace();
+                            }
+                            // write code for saving data to the file
+                        }
+                    Log.d("status", Environment.getExternalStorageState(dir));
+
                     setupMediaRecorder();
                     try {
                         mediaRecorder.prepare();
@@ -81,6 +101,7 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
                     mediaRecorder.stop();
+                    mediaRecorder.reset();
                     btnStopRecord.setEnabled(false);
                     btnPlay.setEnabled(true);
                     btnRecord.setEnabled(true);
