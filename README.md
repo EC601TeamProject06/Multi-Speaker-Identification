@@ -72,6 +72,10 @@ The goal for the final product will be a mobile application that utilizes a trai
 
 * Evaluate and test
 
+## Application Structure
+
+![App Block Diagram](https://github.com/EC601TeamProject06/Multi-Speaker-Identification/blob/main/block_diagram.png)
+
 ## Reference
 
 
