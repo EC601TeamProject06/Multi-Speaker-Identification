@@ -34,11 +34,21 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Play"
+        android:text="Run"
         android:textSize="20sp"
         android:id="@+id/play"
         android:layout_below="@id/stop"
         android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true"
         />
+
+    <TextView
+        android:id="@+id/modelPredict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="113dp"
+        android:text="Result"
+        android:textSize="24sp"/>
 </RelativeLayout>
