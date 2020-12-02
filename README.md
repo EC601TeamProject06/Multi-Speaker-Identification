@@ -78,7 +78,7 @@ The goal for the final product will be a mobile application that utilizes a trai
 
 ## Interface
 
-![App Interface](https://github.com/EC601TeamProject06/Multi-Speaker-Identification/blob/main/speakerid_app.PNG)
+<img src="https://github.com/EC601TeamProject06/Multi-Speaker-Identification/blob/main/speakerid_app.PNG" width="400">
 
 ## Reference
 
