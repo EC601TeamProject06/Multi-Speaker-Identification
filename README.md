@@ -80,6 +80,48 @@ The goal for the final product will be a mobile application that utilizes a trai
 
 <img src="https://github.com/EC601TeamProject06/Multi-Speaker-Identification/blob/main/speakerid_app.PNG" width="400">
 
+## Changelog
+
+### Sprint 1
+
+* Created github project and initial directories for progress tracking
+
+* Defined MVP and user stories
+
+* Started exploring SincNet and Tensorflow for model creation, training, and evaluation
+
+### Sprint 2
+
+* Implemented examples from SincNet and Tensorflow in python
+
+* Defined architecture using tensorflow as platform of choice
+
+### Sprint 3
+
+* Decided to implement project as a mobile application using Android Studio
+
+* Started building voice recorder sub-application for capturing user input
+
+* Trained tensorflow model in python and converted to tensorflow lite model
+
+* Created test sub-application to verify and evaluate model 
+
+### Sprint 4
+
+* Completed working voice recorder with playback
+
+* Started module for audio processing
+
+* Started integration of sub-applications
+
+### Sprint 5
+
+* Trained new model using user voice samples
+
+* Completed module to perform FFT on raw audio and format result for model prediction
+
+* Initial integration of all sub-applications into one application
+
 ## Reference
 
 
