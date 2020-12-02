@@ -78,7 +78,7 @@ The goal for the final product will be a mobile application that utilizes a trai
 
 ## Interface
 
-<img src="https://github.com/EC601TeamProject06/Multi-Speaker-Identification/blob/main/speakerid_app.PNG" width="400">
+<img src="https://github.com/EC601TeamProject06/Multi-Speaker-Identification/blob/main/speakerid_app.PNG" width="300">
 
 ## Changelog
 
@@ -94,6 +94,8 @@ The goal for the final product will be a mobile application that utilizes a trai
 
 * Implemented examples from SincNet and Tensorflow in python
 
+<img src="https://github.com/EC601TeamProject06/Multi-Speaker-Identification/blob/main/images/sincnet_res.PNG" width="600">
+
 * Defined architecture using tensorflow as platform of choice
 
 ### Sprint 3
@@ -106,9 +108,14 @@ The goal for the final product will be a mobile application that utilizes a trai
 
 * Created test sub-application to verify and evaluate model 
 
+<img src="https://github.com/EC601TeamProject06/Multi-Speaker-Identification/blob/main/images/testmodel.PNG" width="300">
+
+
 ### Sprint 4
 
 * Completed working voice recorder with playback
+
+<img src="https://github.com/EC601TeamProject06/Multi-Speaker-Identification/blob/main/images/recorder.PNG" width="300">
 
 * Started module for audio processing
 
@@ -118,9 +125,23 @@ The goal for the final product will be a mobile application that utilizes a trai
 
 * Trained new model using user voice samples
 
+<img src="https://github.com/EC601TeamProject06/Multi-Speaker-Identification/blob/main/images/labels.PNG" width="500">
+
+<img src="https://github.com/EC601TeamProject06/Multi-Speaker-Identification/blob/main/images/training.PNG" width="800">
+
 * Completed module to perform FFT on raw audio and format result for model prediction
 
 * Initial integration of all sub-applications into one application
+
+<p float="left">
+  <img src="https://github.com/EC601TeamProject06/Multi-Speaker-Identification/blob/main/images/home.jpg" width="300" />
+  <img src="https://github.com/EC601TeamProject06/Multi-Speaker-Identification/blob/main/images/start.jpg" width="300" />
+</p>
+
+<p float="left">
+  <img src="https://github.com/EC601TeamProject06/Multi-Speaker-Identification/blob/main/images/stop.jpg" width="300" />
+  <img src="https://github.com/EC601TeamProject06/Multi-Speaker-Identification/blob/main/images/run.jpg" width="300" />
+</p>
 
 ## Reference
 
