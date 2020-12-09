@@ -131,6 +131,12 @@ The goal for the final product will be a mobile application that utilizes a trai
 
 * Completed module to perform FFT on raw audio and format result for model prediction
 
+<p float="left">
+  <img src="https://github.com/EC601TeamProject06/Multi-Speaker-Identification/blob/main/images/fft.PNG" width="500" />
+  <img src="https://github.com/EC601TeamProject06/Multi-Speaker-Identification/blob/main/images/fft2.PNG" width="500" />
+  <img src="https://github.com/EC601TeamProject06/Multi-Speaker-Identification/blob/main/images/inference.PNG" width="500" />
+</p>
+
 * Initial integration of all sub-applications into one application
 
 <p float="left">
